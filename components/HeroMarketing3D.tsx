@@ -83,9 +83,9 @@ export default function HeroMarketing3D() {
         {/* Sub-paragraph */}
         <p
           ref={subtitleRef}
-          className="text-white/60 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed opacity-0"
+          className="text-white/60 text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed opacity-0"
         >
-          We build Next.js interfaces designed to convert, engineered for speed, and structured to scale. Affordable pricing packages from <span className="font-semibold text-white">₹10,000</span>.
+          We design and engineer high-converting websites, custom web & mobile applications, and high-ROI marketing campaigns structured to scale your business revenue.
         </p>
 
         {/* Action CTAs */}
