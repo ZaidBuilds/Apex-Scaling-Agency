@@ -166,7 +166,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/917303030707?text=Hi%20Apex%20Scaling%2C%20I'd%20like%20to%20get%20a%20free%20quote." target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
+                <a href="https://wa.me/919528386635?text=Hi%20Apex%20Scaling%2C%20I'd%20like%20to%20get%20a%20free%20quote." target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
                   WhatsApp Direct <ArrowUpRight size={12} />
                 </a>
               </li>
