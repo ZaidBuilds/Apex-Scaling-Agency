@@ -177,7 +177,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="text-[10px] font-bold uppercase tracking-widest text-white/40 font-mono">Location</h4>
             <p className="text-xs text-white/60 leading-relaxed">
-              Mumbai, India & Gulf region.<br />
+              Meerut, India & Gulf region.<br />
               Remote collaboration worldwide.
             </p>
           </div>

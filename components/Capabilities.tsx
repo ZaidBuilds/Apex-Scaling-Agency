@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { use3DTilt } from "@/lib/hooks/use3DTilt";
-import { Globe, Search, MessageSquare, Code2, ArrowUpRight } from "lucide-react";
+import { Globe, Smartphone, Megaphone, BarChart3, ArrowUpRight } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -64,31 +64,31 @@ export default function Capabilities() {
   const capabilitiesList = [
     {
       title: "Premium Website",
-      italicWord: "Development",
-      description: "Custom UI grids, clean phase motions, and Next.js 15 routing engineered under 1.5s load speeds.",
+      italicWord: "Building",
+      description: "Custom-designed Next.js websites, Awwwards-inspired motion designs, and highly optimized landing pages built to convert.",
       icon: Globe,
-      badge: "Flagship Service",
+      badge: "High Conversion",
     },
     {
-      title: "Search Engine",
-      italicWord: "Optimization",
-      description: "Keywords research, meta schemas structures, and speed optimizations built to rank on Google search.",
-      icon: Search,
-      badge: "Visibility Boost",
+      title: "SaaS & Mobile",
+      italicWord: "Applications",
+      description: "Tailored full-stack web platforms and cross-platform mobile apps (iOS & Android) built with React Native and Node.js.",
+      icon: Smartphone,
+      badge: "SaaS & Scale",
     },
     {
-      title: "Copywriting &",
-      italicWord: "Content",
-      description: "High-converting headings and technical content that sells, structured for direct lead capture.",
-      icon: MessageSquare,
-      badge: "Conversions Hook",
+      title: "Paid Ads &",
+      italicWord: "Funnels",
+      description: "Highly profitable paid campaigns across Meta and Google Ads, engineered with structured conversion funnels.",
+      icon: Megaphone,
+      badge: "PPC & Lead Gen",
     },
     {
-      title: "Custom CRM",
-      italicWord: "Integrations",
-      description: "Connecting form submissions directly to Notion databases, Airtable CRM, and Resend mail automation.",
-      icon: Code2,
-      badge: "Workflow Setup",
+      title: "Digital Marketing &",
+      italicWord: "SEO",
+      description: "Advanced Search Engine Optimization, copywriting, conversion audits, and automated CRM pipelines for business growth.",
+      icon: BarChart3,
+      badge: "Organic Growth",
     },
   ];
 

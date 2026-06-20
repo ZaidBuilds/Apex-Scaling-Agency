@@ -84,16 +84,11 @@ export default function Navbar() {
           {/* Desktop CTA Button (Right - White Pill) */}
           <div className="hidden md:flex items-center gap-4">
             <Button
-              onClick={(e) => {
-                const contactEl = document.querySelector("#contact");
-                if (contactEl) {
-                  contactEl.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
+              onClick={() => window.open("https://calendly.com/collab-zaidbuilds/30min", "_blank")}
               variant="default"
               className="bg-white hover:bg-white/90 text-[#06040a] rounded-full px-5 py-5 font-semibold text-xs tracking-wider transition-all shadow-sm cursor-pointer border border-transparent flex items-center gap-1"
             >
-              Get started
+              Book a Call
               <ArrowUpRight size={13} />
             </Button>
           </div>
@@ -143,14 +138,11 @@ export default function Navbar() {
                 <Button
                   onClick={() => {
                     setMobileMenuOpen(false);
-                    const contactEl = document.querySelector("#contact");
-                    if (contactEl) {
-                      contactEl.scrollIntoView({ behavior: "smooth" });
-                    }
+                    window.open("https://calendly.com/collab-zaidbuilds/30min", "_blank");
                   }}
                   className="w-full bg-white hover:bg-white/95 text-[#06040a] rounded-full py-6 font-semibold flex items-center justify-center gap-1.5"
                 >
-                  Get started
+                  Book a Call
                   <ArrowUpRight size={15} />
                 </Button>
               </motion.div>

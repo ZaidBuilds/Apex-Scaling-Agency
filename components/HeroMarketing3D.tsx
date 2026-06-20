@@ -94,10 +94,10 @@ export default function HeroMarketing3D() {
           className="flex flex-col sm:flex-row gap-4 items-center justify-center opacity-0"
         >
           <Button
-            onClick={() => handleScrollTo("#contact")}
+            onClick={() => window.open("https://calendly.com/collab-zaidbuilds/30min", "_blank")}
             className="w-full sm:w-auto bg-white hover:bg-white/90 text-[#06040a] rounded-full px-8 py-6 font-semibold uppercase tracking-wider text-[10px] shadow-sm cursor-pointer border border-transparent transition-colors flex items-center gap-1.5"
           >
-            Get in Touch
+            Book a Consultation
             <ArrowUpRight size={14} />
           </Button>
 
