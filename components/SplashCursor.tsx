@@ -40,8 +40,10 @@ function SplashCursor({
   const animationFrameId = useRef<number | null>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
+    const canvasEl = canvasRef.current;
+    if (!canvasEl) return;
+    // After null check, canvas is guaranteed non-null for all closures
+    const canvas = canvasEl;
 
     // Track if the effect is still active for cleanup
     let isActive = true;
